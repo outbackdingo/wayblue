@@ -18,9 +18,47 @@ install:
   - qt6-qtwayland
   - vulkan-validation-layers
   - vulkan-tools
-  - google-noto-emoji-fonts
-  - gnome-disk-utility
   - ddcutil
+  - google-noto-emoji-fonts
+  - jetbrains-mono-fonts
+  - gnome-disk-utility
+  - bash-completion
+  - bzip2
+  - gcc
+  - gcc-c++
+  - git
+  - make
+  - ncurses-devel
+  - fzf
+  - eza
+  - patch
+  - rsync 
+  - tar 
+  - unzip
+  - wget
+  - which
+  - diffutils
+  - python3
+  - perl-base
+  - perl-Data-Dumper
+  - perl-File-Compare
+  - perl-File-Copy
+  - perl-FindBin
+  - perl-IPC-Cmd
+  - perl-JSON-PP
+  - perl-Thread-Queue
+  - perl-Time-Piece
+  - re2c
+  - libreoffice
+  - virt-viewer
+  - virt-manager
+  - virt-install
+  - nodejs
+  - npm
+  - rpi-imager
+  - minicom
+  - tftp
+  - tftp-server
   
 # sound
   - wireplumber
@@ -66,6 +104,15 @@ install:
 
 # terminal
   - foot
+  - tilix
+  - zsh
+  - kubernetes-client
+  - go
+  - rust
+  - mc
+  - telegram-desktop
+  - xrandr
+  - nmap
 
 # notifications
   - dunst
