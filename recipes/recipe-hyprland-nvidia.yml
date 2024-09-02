@@ -7,6 +7,22 @@ base-image: ghcr.io/ublue-os/base-nvidia
 image-version: 40
 
 modules:
+  - type: rpm-ostree
+    repos:
+        - https://copr.fedorainfracloud.org/coprs/lukenukem/asus-linux/repo/fedora-40/lukenukem-asus-linux-fedora-40.repo
+      # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
+    install:
+      - asusctl
+      - asusctl-rog-gui
+      - supergfxctl
+      # - micro
+      # - starship
+    remove:
+      # example: removing firefox (in favor of the flatpak)
+      # "firefox" is the main package, "firefox-langpacks" is a dependency
+      # - firefox
+      # - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
+https://copr.fedorainfracloud.org/coprs/lukenukem/asus-linux/repo/fedora-40/lukenukem-asus-linux-fedora-40.repo
   - from-file: sddm-packages.yml
   - from-file: common-packages.yml
   - from-file: hyprland-packages.yml
