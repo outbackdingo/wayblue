@@ -22,7 +22,6 @@ modules:
       # "firefox" is the main package, "firefox-langpacks" is a dependency
       # - firefox
       # - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
-https://copr.fedorainfracloud.org/coprs/lukenukem/asus-linux/repo/fedora-40/lukenukem-asus-linux-fedora-40.repo
   - from-file: sddm-packages.yml
   - from-file: common-packages.yml
   - from-file: hyprland-packages.yml
