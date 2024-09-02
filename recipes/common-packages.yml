@@ -110,6 +110,7 @@ install:
   - kubernetes-client
   - go
   - rust
+  - cargo
   - mc
   - telegram-desktop
   - xrandr
@@ -126,3 +127,4 @@ install:
   - paper-icon-theme
   - breeze-icon-theme 
   - papirus-icon-theme
+  - fira-code-fonts
