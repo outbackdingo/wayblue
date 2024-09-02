@@ -111,6 +111,7 @@ install:
   - go
   - rust
   - cargo
+  - liboqs
   - mc
   - telegram-desktop
   - xrandr
