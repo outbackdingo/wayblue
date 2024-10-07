@@ -113,7 +113,7 @@ install:
   - cargo
   - liboqs
   - mc
-  - telegram-desktop
+  # - telegram-desktop
   - xrandr
   - nmap
   - elvish
