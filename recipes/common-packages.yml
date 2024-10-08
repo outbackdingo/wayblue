@@ -60,6 +60,7 @@ install:
   - minicom
   - tftp
   - tftp-server
+  - NetworkManager-tui
   
 # sound
   - wireplumber
