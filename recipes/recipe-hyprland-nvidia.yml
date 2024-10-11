@@ -21,6 +21,8 @@ modules:
       - supergfxctl
       - k9s
       - wallust
+      - copyq
+      - meson
       - amneziawg-dkms
       # - micro
       # - starship
