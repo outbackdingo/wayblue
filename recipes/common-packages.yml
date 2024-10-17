@@ -71,6 +71,7 @@ install:
 # networking
   - network-manager-applet
   - NetworkManager-openvpn
+  - NetworkManager-tui
   - NetworkManager-openconnect
   - bluez
   - bluez-tools

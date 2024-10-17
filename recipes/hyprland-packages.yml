@@ -33,8 +33,6 @@ install:
   - rofi-wayland
   - slurp
   - swappy
-  - SwayNotificationCenter
-  - wallust
   - waybar
   - wget2
   - wl-clipboard
@@ -42,11 +40,7 @@ install:
   - xdg-user-dirs
   - xdg-utils
   - yad
-  - aylurs-gtk-shell
-  - cliphist
   - hypridle
   - hyprlock
   - pamixer
-  - pyprland
-  - swww
 
